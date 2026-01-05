@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Slf4j
 @RequiredArgsConstructor
 public class BaseInitData {
-    private final PostService postService10
+    private final PostService postService;
 
     @Bean
     public ApplicationRunner baseInitDataRunner (){
