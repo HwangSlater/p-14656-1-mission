@@ -1,9 +1,12 @@
 package com.back;
 
+import com.back.domain.post.repository.PostRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @SpringBootApplication
+@EnableElasticsearchRepositories
 public class BackApplication {
 
     public static void main(String[] args) {
